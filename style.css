@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.header{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.img{
+  height: 700px;
+}
+.hero-section{
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  
+}
+.para{
+  font-size: 30px;
+}
+.heading{
+  margin-top: 120px;
+  font-size: 60px;
+}
+.input{
+  padding: 20px;
+}
+.button{
+  padding: 20px;
+  border-radius: 90px;
+  background-color: blue;
+  font-size: larger;
+  color: wheat;
+}
+.email{
+  padding: 30px;
+  margin: 30px;
+}
+.button1{
+  margin-top: 9px;
+   padding: 20px;
+  border-radius: 90px;
+  background-color: blue;
+  font-size: larger;
+  color: wheat;
+}
+.second{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: 70px;
+  padding-left: 70px;
+}
