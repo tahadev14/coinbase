@@ -1,5 +1,6 @@
  body {
       font-family: "Poppins", sans-serif;
+      /* margin: 600px; */
     }
 header{
     border-bottom: 1px solid;
@@ -36,9 +37,20 @@ svg {
     align-items: center;
     justify-content: space-between;
 margin: 0 10px 0 10px;
+
 }
+.header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 100;
+}
+
 /* hero section */
 .heroContainer {
+  margin: 700px;
     display: flex;
     margin: 20px;
 }
@@ -115,6 +127,7 @@ margin-bottom: 10px;
  }
  /* all six card with heading container */
  .coinContainer{
+    padding: 50px;
     display: flex;
     height: 800px;
     background-color: #e9eff5;
@@ -218,6 +231,7 @@ margin-bottom: 10px;
 
 /* portfolio start */
 .portfoliomain-container{
+  padding: 50px;
     width: 1200px;
     height: 500px;
     display:flex;
@@ -274,3 +288,61 @@ margin-bottom: 10px;
 .learnmore:hover{
     background-color: blue;
 }
+
+.fiveth{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.heading-2{
+  font-size: 50px;
+  color: rgb(10, 10, 10);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button1{
+  padding: 15px 30px 15px 30px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 1px 8px 15px rgb(100, 129, 190);
+    font-weight: bold;
+}
+.sixeth{
+   margin: 140px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.button2{
+   padding: 15px 30px 15px 30px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 1px 8px 15px rgb(100, 129, 190);
+    font-weight: bold;
+}
+
+.seventh{
+   margin: 140px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.button3{
+   padding: 15px 30px 15px 30px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 1px 8px 15px rgb(100, 129, 190);
+    font-weight: bold;
+}
+ .one{ 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* justify-content: center; */
+} 
