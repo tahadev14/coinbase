@@ -1,60 +1,276 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+ body {
+      font-family: "Poppins", sans-serif;
+    }
+header{
+    border-bottom: 1px solid;
+    color: grey;
+}
+div h2{
+    color: blue
+}
+.signup-small{
+    border-radius: 50px;
+    font-weight: bold;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    background-color: blue;
+    color: white
+    
+}
+.signup-small:hover{
+    transform: scale(1.1);
+}
+
+svg {
+    width: 40px;
+    height: 40px;
+    color: grey
+}
+.menucontainer{
+    display: flex;
+    gap: 10px;
+    
+}
+.navecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin: 0 10px 0 10px;
+}
+/* hero section */
+.heroContainer {
+    display: flex;
+    margin: 20px;
+}
+/* mobile image container */
+.mobileimage-container{
+    width: 100%;
+    margin: 70px;
+}
+
+.imageone-container img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px lightgray;
+}
+
+.imagetwo-container img {
+    width: 200px;
+    border-radius: 10px;
+    margin-top: -500px;
+    margin-left: 230px;
+    box-shadow: 10px 10px 10px lightgray;
+}
+/* heading text container */
+.headContainer {
+    margin: 80px;
 }
 
 
-.header{
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+div span {
+    font-size: 40px;
+    margin: 0;
+}
 
-}
-.img{
-  height: 700px;
-}
-.hero-section{
-  margin-top: 120px;
-  display: flex;
-  justify-content: center;
-  
-}
-.para{
-  font-size: 30px;
-}
-.heading{
-  margin-top: 120px;
-  font-size: 60px;
-}
-.input{
-  padding: 20px;
-}
-.button{
-  padding: 20px;
-  border-radius: 90px;
-  background-color: blue;
-  font-size: larger;
-  color: wheat;
-}
+
 .email{
-  padding: 30px;
-  margin: 30px;
+border: solid 1px;
+color: grey;
+padding: 10px;
+margin-right: 200px;
+border-radius: 10px;
+
 }
-.button1{
-  margin-top: 9px;
-   padding: 20px;
-  border-radius: 90px;
-  background-color: blue;
-  font-size: larger;
-  color: wheat;
+.headContainer h5 {
+font-weight: bold;
+margin-top: 30px;
+margin-bottom: 10px;
 }
-.second{
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  margin-left: 70px;
-  padding-left: 70px;
+.headContainer p{
+    margin-top: 10px;
+}
+.emailAddress{
+    padding: 15px;
+    border: solid 1px;
+    color: grey;
+    border-radius: 10px;
+
+}
+.signup-medium{
+    padding: 15px 30px 15px 30px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 1px 8px 15px rgb(100, 129, 190);
+    font-weight: bold;
+    
+}
+.signup-medium:hover{
+    transform: scale(1.1);
+}
+ .emailContainer{
+    display: flex;
+    gap: 10px;
+ }
+ /* all six card with heading container */
+ .coinContainer{
+    display: flex;
+    height: 800px;
+    background-color: #e9eff5;
+ }
+ /* heading container */
+ .textContainer{
+    width: 600px;
+    padding: 250px 50px;
+    
+    
+ }
+ .textContainer span{
+    font-size: 30px;
+ }
+.textContainer p{
+    font-size: 25px;
+}
+.seemore-container{
+    padding: 15px 20px 15px 20px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: none;
+        font-weight: bold;
+
+}
+/* six card container with button */
+.card-container{
+    margin: 70px 70px;
+}
+/* button container */
+.tradable-button{
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(24, 24, 25);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+}
+.topgainers-button{
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border: 0;
+        font-weight: bold;
+
+}
+.cardbutton-container{
+    display:flex;
+    gap: 10px;
+}
+/* 6 card start here */
+.bitcoin-ethereum-container{
+    display: flex;
+    gap: 20px;
+}
+.bitcoincard-container{
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px rgb(227, 225, 225) solid;
+    box-shadow: 6px 6px 10px rgb(230, 232, 241);
+}
+.bitcoin-content-container{
+    padding: 20px;
+}
+
+.bitcoin-content-container img{
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+}
+
+.bitcoin-content-container h4{
+    margin: 0
+}
+.bitcoin-content-container p{
+    margin: 0;
+    margin-top: -3px;
+    color: grey;
+}
+
+.arrowicon-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.arrowicon-container svg{
+    width: 25px;
+    height: 25;
+    color: red;
+}
+
+.arrowicon-container h2{
+    font-weight: lighter;
+    color: red;
+}
+
+
+/* portfolio start */
+.portfoliomain-container{
+    width: 1200px;
+    height: 500px;
+    display:flex;
+    margin: 50px;
+    
+}
+
+.emailcontent-container{
+    width: 400px;
+    margin: 10px;
+}
+
+.portfoliomain-container img{
+    margin-left: 100px;
+    width: 500px;
+    height: 350px;
+}
+
+/* mobile landscape start */
+
+.mobilelandscape-container{
+    height: 500px;
+    width: 100%;
+    
+    
+}
+
+.usdctexthalf-container{
+    
+    height: 300px;
+    background-color: black;
+    display: flex;
+}
+
+.usdctext-container{
+    padding: 70px 50px;
+    width: 40%;
+    color: white;
+    font-size: 30px;
+}
+
+.learnmorebutton-container p{
+    color: white;
+}
+.learnmore{
+    width: 130px;
+    height: 50px;
+    border: 0;
+    border-radius: 50px;
+}
+.learnmorebutton-container{
+    padding: 70px 50px;
+}
+.learnmore:hover{
+    background-color: blue;
 }
